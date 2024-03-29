@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>SOS App for Animals</title>
+    <link rel="stylesheet" href="sos.css">
+  </head>
+  <body>
+    <h1>SOS App for Animals</h1>
+    <form id="sos-form">
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" required></textarea><br>
+      <button type="submit">Send SOS Message</button>
+    </form>
+    <h2>Contacts:</h2>
+    <ul id="contacts">
+    </ul>
+    <form id="contact-form">
+      <label for="contact-name">Name:</label>
+      <input type="text" id="contact-name" name="contact-name" required><br>
+      <label for="contact-number">Phone Number:</label>
+      <input type="tel" id="contact-number" name="contact-number" required><br>
+      <button type="submit">Add Contact</button>
+    </form>
+    <script src="sos.js"></script>
+  </body>
+</html>
